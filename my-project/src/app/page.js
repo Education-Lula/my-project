@@ -8,10 +8,7 @@ export default function Home() {
         <div className="nav__header">
   <div class="nav__logo">
     
-      <img
-        src="assets/logo-Restaurant.jpg"
-        alt="logo"
-      />
+      
       
           </div>
           <div className="nav__menu__btn" id="menu-btn">
@@ -28,7 +25,9 @@ export default function Home() {
       </nav>
       <div className="section__container header__container" id="home">
         <div className="header__image">
-          <img src="assets/HABESHA.jpg" alt="header" />
+        <Image src={require('./assets/HABESHA.jpg').default}
+         alt=" image" 
+      />
         </div>
         <div className="header__content">
           <h2>Experience the Authentic Flavors of Habesha Cuisine</h2>
@@ -64,7 +63,9 @@ export default function Home() {
       </p>
       <div className="order__grid">
         <div className="order__card">
-          <img src="assets/Shekila.jpg" alt="order" />
+        <Image src={require('./assets/shekila.jpg').default}
+         alt=" image" 
+      />
           <h4>SHEKILA</h4>
           <p>
             20$
@@ -72,7 +73,7 @@ export default function Home() {
           <button className="btn">ORDER NOW</button>
         </div>
         <div className="order__card">
-          <img src="assets/SHAYA.jpg" alt="order" />
+          <Image src={require("./assets/SHAYA.jpg").default} alt="order" />
           <h4>SHEYA</h4>
           <p>
             20$
@@ -81,7 +82,7 @@ export default function Home() {
         </div>
         
         <div className="order__card">
-          <img src="assets/DERHO.jpg" alt="order" />
+        <Image src={require("./assets/DERHO.jpg").default} alt="order" />
           <h4>DERHO</h4>
           <p>
             20$
@@ -89,7 +90,7 @@ export default function Home() {
           <button className="btn">ORDER NOW</button>
         </div>
         <div className="order__card">
-          <img src="assets/NAY XOM.jpg" alt="order" />
+        <Image src={require("./assets/NAY XOM.jpg").default} alt="order" />
           <h4>NAY XOM</h4>
           <p>
             25$
@@ -97,7 +98,7 @@ export default function Home() {
           <button className="btn">ORDER NOW</button>
         </div>
         <div className="order__card">
-          <img src="assets/ENQAQHO.jpg" alt="order" />
+        <Image src={require("./assets/ENQAQHO.jpg").default} alt="order" />
           <h4>ENQAQHO</h4>
           <p>
             15$
@@ -105,7 +106,7 @@ export default function Home() {
           <button className="btn">ORDER NOW</button>
         </div>
         <div className="order__card">
-          <img src="assets/GEAT .jpg" alt="order" />
+        <Image src={require("./assets/GEAT .jpg").default} alt="order" />
           <h4>GEAT</h4>
           <p>
             20$
@@ -113,7 +114,7 @@ export default function Home() {
           <button className="btn">ORDER NOW</button>
         </div>
         <div className="order__card">
-          <img src="assets/BEBEAYNETU.png" alt="order" />
+        <Image src={require("./assets/BEAYNETU.jpg").default} alt="order" />
           <h4>BEAYNETU</h4>
           <p>
             25$
@@ -121,7 +122,7 @@ export default function Home() {
           <button className="btn">ORDER NOW</button>
         </div>
         <div className="order__card">
-          <img src="assets/ZIGNI.jpg" alt="order" />
+        <Image src={require("./assets/ZIGNI.jpg").default} alt="order" />
           <h4>ZIGNI</h4>
           <p>
             25$
@@ -129,7 +130,7 @@ export default function Home() {
           <button className="btn">ORDER NOW</button>
         </div>
         <div className="order__card">
-          <img src="assets/SHORO.jpg" alt="order" />
+        <Image src={require("./assets/SHORO.jpg").default} alt="order" />
           <h4>SHIRO</h4>
           <p>
             20$
@@ -137,7 +138,7 @@ export default function Home() {
           <button className="btn">ORDER NOW</button>
         </div>
         <div className="order__card">
-          <img src="assets/PASTA SPAGETI.jpg" alt="order" />
+        <Image src={require("./assets/PASTA SPAGETI.jpg").default} alt="order" />
           <h4> SPAGETI </h4>
           <p>
             20$
@@ -150,7 +151,7 @@ export default function Home() {
     <section className="section__container event__container" id="event">
       <div className="event__content">
         <div className="event__image">
-          <img src="assets/upcoming.jpg" alt="event" />
+        <Image src={require("./assets/upcoming.jpg").default} alt="image" />
         </div>
         <div className="event__details">
           <h3>Discover</h3>
@@ -180,9 +181,7 @@ Join us in creating memorable moments and delicious memories together!
           <button className="btn" type="submit">FIND TABLE</button>
         </form>
       </div>
-      <img
-        src="assets/thumb@1024_4c3e00cb-83d3-47ee-968c-27b04b4f8a32.jpg"
-        alt="reservation"
+      <Image src={require("./assets/COFFEE.jpg").default} alt="image"
         className="reservation__bg-1"
       />
       <img
